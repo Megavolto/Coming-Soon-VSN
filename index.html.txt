@@ -7,47 +7,29 @@
     body {
       margin: 0;
       height: 100vh;
-      background-color: #000000;
-      color: #FFD700; /* Gold Yellow */
-      font-family: 'Arial', sans-serif;
+      background-color: #000;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      font-family: 'Arial', sans-serif;
+      color: #FFD700; /* Gold Yellow */
       text-align: center;
     }
 
     h1 {
       font-size: 3.5rem;
-      margin-bottom: 10px;
-      color: #FFD700;
-    }
-
-    p {
-      font-size: 1.2rem;
-      color: #FFFFFF;
-    }
-
-    .line {
-      margin-top: 20px;
-      width: 60px;
-      height: 4px;
-      background-color: #FFD700;
+      font-weight: bold;
+      padding: 0 20px;
     }
 
     @media (max-width: 600px) {
       h1 {
-        font-size: 2.2rem;
-      }
-      p {
-        font-size: 1rem;
+        font-size: 2rem;
       }
     }
   </style>
 </head>
 <body>
-  <h1>Coming Soon</h1>
-  <div class="line"></div>
-  <p>The Virtual Scouting Network is getting ready.<br>We’ll be live soon with game-changing content for football players, agents, and scouts.</p>
+  <h1>Virtual Scouting Network will launch soon</h1>
 </body>
 </html>
